@@ -49,17 +49,15 @@ import decimal
 # 	- save the image.
 
 
-bigPictures = ["A:\\Code Perso\\Code Python\\Photos Antoine Menard\\11958129_953136368082684_862721585416868723_o.jpg",
-			"A:\\Code Perso\\Code Python\\308732_148493965250001_597912943_n.jpg", 
-			"A:\\Code Perso\\Code Python\\423109_223466674419396_106832522_n.jpg", 
-			"A:\\Code Perso\\Code Python\\DSC_0896.JPG", 
-			"A:\\Code Perso\\Code Python\\IMG-20200109-WA0022.jpg" ]
-smallPicturesDir = "A:\\Code Perso\\Code Python\\Photos Antoine Menard"
-rgbToFiles = "listImagesAntoine.txt"
-newImageName = "patchResult\\patchAntoine40x60.png"
+bigPictures = ["path\\to\\file\\1.png",
+			"path\\to\\file\\2.jpg", 
+			"path\\to\\file\\3.jpg", ]
+smallPicturesDir = "\\path\\to\\the\\folder\\containing\\lots\\of\\pictures"
+rgbToFiles = "palette_of_colors.json"
+newImageName = "patchResult\\patchedImage.png"
 colorsDistortion = frange(0.20, 0.25, 0.05)
-tilesX = 40#50
-tilesY = 60#75
+tilesX = 50
+tilesY = 75
 finalSizeX = 3000
 finalSizeY = None
 verbose = False
